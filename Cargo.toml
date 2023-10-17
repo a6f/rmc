@@ -1,0 +1,12 @@
+[package]
+name = "rmc"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rmc"
+path = "rmc.rs"
+
+[dependencies]
+levenshtein = "1.0.5"
+similar = "2.3.0"
